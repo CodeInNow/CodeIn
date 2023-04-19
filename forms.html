@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>
+            Form Tutorials
+        </h1>
+        
+        <form action="myfirst.html">
+            
+            <fieldset>
+                <legend><b>Personalia</b></legend>
+            <lable for="fname">First name</lable>
+            <br>
+<input type="text" id="fname" name="First name">
+          <br>
+          <lable for="Mname"> Middle Name</lable>
+          <br>
+<input type="text" id="Mname" name="Middle Name">
+<br>
+<lable for="Lname">Last Name</lable>
+<br>
+<input type="text" id="lname" name="Last name">
+<br>
+<lable for="Oname">Other Name</lable>
+<br>
+<input type="text" id="Onmae" name="Other Name">
+<br>
+
+<br>
+<label for="email" >Email</label>
+<input type="email" id="email" name="email">
+<br>
+<lable for="pword">Password</lable>
+<input type="password" id="pword" name="password" size="20" maxlength="6" required>
+<br>
+<br>
+<lable for="bday">Date of Birth</lable>
+<br>
+<input type="date" id="bday" name="date of birth">
+<br>
+<br>
+<lable for="Datemax">Select Age Not Above 20years</lable>
+<input type="date" id="Datemax" name="datemax" max="2022-12-01">
+<br><br>
+<lable for="Datemin">Select Age not less than 20years</lable>
+<br>
+<input type="Date" id="Datemin" name="Datemin" min="2022-12-01">
+
+</fieldset>
+<br>
+<br>
+<input type="submit" value="submit">
+<input type ="reset">
+<br>
+<br>
+<br>
+<lable forb="fruit">Choose Your Favourite Fruit</lable>
+<br>
+<select id="fruit" name="fruits" size="3" multiple>
+        <option value="Appple">Apple</option>
+        <br>
+        <option value="Orange">Orange</option>
+        <br>
+        <option value="Mango">Mango</option>
+        <br>
+        <option value="Banana">Banana</option>
+        
+</select>
+<br>
+<br>
+<input type="submit">
+<input type="reset">
+<br>
+<br>
+<h2>
+    Write about your favourite fruit and how you like it in the space provided below
+</h2>
+
+<textarea name="message" rows="30" cols="35"></textarea>
+<br><br>
+<button type="button" onclick="alert(hello Code)">Next</button>
+<input type="submit">
+<input type="reset">
+<br>
+<br>
+<p><b>GENDER</b></p>
+<input type="radio" id="Male" name="sex" value="Male">
+<lable for="Male">MALE</lable>
+<br>
+<input type="radio" id="female" name="sex" value="Female">
+<lable for="female">FEMALE</lable>
+<br>
+<input type="radio" id="monosexual"name="sex" value="monosexual">
+<lable for="monosexual">MONOSEXUAL</lable>
+<br>
+<br>
+<p><b>SELECT FAVOURITE PROGRAMING LANGUAGE</b></p>
+<input type="checkbox" id="html" name="fav lang" value="html">
+<lable for="html">HTML</lable>
+<br>
+<input type="checkbox" id="CSS" name="fav lang" value="CSS">
+<lable for="CSS">CSS</lable>
+<br>
+<input type="checkbox" id="jscript" name="fav lang" value="JavaSript">
+<lable for="jsript">JAVASCRIPT</lable>
+<p>
+ <b>
+     Choose Your Favorite Color Tutorials
+ </b>
+</p>
+<lable for="favcolor">Favourite Colour</lable>
+<br>
+<input type="color" id="favcolor" name="FavouriteColor">
+<input type="reset">
+<br>
+<br>
+<label for="myfile">Choose your file</label>
+<input type="file" id="myfile" name="file">
+<br>
+<br>
+<lable for="Quntity">Choose a number between 1and 10</lable>
+<br>
+<input type="number" id="Quantity" name="number" min="1" max="10" step="3" value="10">
+<br>
+<br>
+<lable for="time">Choose Time</lable>
+<input type="time" id="time" name="time">
+<br>
+
+<br>
+<lable for="week"><strong>select week</strong></lable>
+<input type="week" id="week" name="week">
+<br>
+<br>
+ <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" readonly disabled><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+       </form>
+    </body>
+</html>
